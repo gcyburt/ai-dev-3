@@ -1,12 +1,6 @@
 require('dotenv').config();
 import axios from 'axios';
 
-interface Answer {
-    task: string;
-    apikey: string;
-    answer: string[];
-}
-
 const fetchData = async () => {
     try {
         const response = await axios.get('https://poligon.aidevs.pl/dane.txt');

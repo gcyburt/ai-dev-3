@@ -1,5 +1,5 @@
 type Answer = {
     task: string
     apikey: string
-    answer: any
+    answer: string[]
 }
